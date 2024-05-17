@@ -1,0 +1,69 @@
+/* Small Screen */
+.container {
+    margin: 1rem;
+}
+
+.movies {
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.movies__title {
+    margin-bottom: 1rem;
+    color: #4361ee;
+    font-size: 2.44rem;
+}
+
+.movie__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie {
+    margin-bottom: 1rem;
+}
+
+.movie_image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+}
+
+.movie__title {
+    margin-bottom: 0.5rem;
+    color: #4361ee;
+    font-size: 1.95rem;
+}
+
+.movie__date {
+    color: #64748b;
+}
+
+/* Medium Screen */
+@media (min-width:768px) {
+    .movie__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .movie {
+        flex-basis: 50%;
+    }
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+   .container {
+    max-width: 1200px;
+    margin: 3rem auto;
+   }
+
+   .movie {
+    flex-basis: 25%;
+    padding: 1rem;
+   }
+
+}

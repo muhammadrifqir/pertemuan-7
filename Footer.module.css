@@ -1,0 +1,32 @@
+/* Small Screen */
+.container {
+    background-color: #4361ee;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+}
+
+.footer__title {
+    margin-bottom: 1rem;
+}
+
+.footer__author {
+    margin-bottom: 1rem;
+}
+
+
+/* Medium Screen */
+@media (min-width:768px) {
+    /*
+    * nothing todo here
+    * we haven't styling footer
+    */
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+    /*
+    * nothing todo here
+    * we haven't styling footer
+    */
+}
